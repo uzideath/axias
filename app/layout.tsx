@@ -9,6 +9,12 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Axias Media | Digital Marketing Solutions",
   description: "Next-generation digital marketing solutions for modern businesses",
+  icons: {
+    apple: {
+      url: "/images/logo.png",
+      href: "/images/logo.png",
+    },
+  },
 }
 
 export default function RootLayout({
@@ -26,7 +32,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'
