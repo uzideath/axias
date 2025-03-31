@@ -66,9 +66,24 @@ export default function About() {
           </RevealOnScroll>
 
           <RevealOnScroll className="space-y-6" stagger>
-            <h2 className="text-responsive-lg font-bold">
-              We're a Team of <span className="gradient-text subtle-glow">Digital Experts</span>
+            <h2 className="text-responsive-lg font-bold text-center sm:text-left px-4 sm:px-0"> {/* Added text-center for mobile */}
+              We're a Team of{" "}
+              <span
+                className="whitespace-nowrap text-[1.5em] sm:text-[1.2em] block sm:inline"  // Increase size for mobile and make it block for better centering
+                style={{
+                  backgroundImage:
+                    "linear-gradient(90deg, hsl(165, 100%, 70%), hsl(270, 100%, 60%), hsl(165, 100%, 70%))",
+                  backgroundSize: "200% 100%",
+                  backgroundClip: "text",
+                  WebkitBackgroundClip: "text",
+                  color: "transparent",
+                  animation: "gradientMove 4s linear infinite",
+                }}
+              >
+                Digital Experts
+              </span>
             </h2>
+
 
             <p className="text-muted-foreground">
               Axias Media is a forward-thinking digital marketing agency that combines creativity, data, and technology
