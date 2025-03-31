@@ -9,7 +9,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Axias Media | Digital Marketing Solutions",
   description: "Next-generation digital marketing solutions for modern businesses",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
